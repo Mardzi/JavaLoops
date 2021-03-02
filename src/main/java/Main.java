@@ -25,17 +25,22 @@ public class Main {
         
         if (age2 >= 18){
             System.out.println("Osoba je punoletna");
-        if   (age2<18 && age2>12){
+            }
+        else if(age2<18 && age2>12) {
             System.out.println("Osoba je tinejdzer");
-        }
-        if   (age2<10 && age2>3){
-            System.out.println("Osoba je dete");
-        }
-        } else {
+    }
+        else if(age2<12 && age2>=11) {
+            System.out.println("Nit je dete nit je tinejdzer");
+    }
+        else if(age2<11 && age2>=3) {
+            System.out.println("Dete");
+    }
+        else if(age2<3 && age2>=0) {
             System.out.println("Bebica");
     }
-        
-        
+        else {
+            System.out.println("Netacan unos");
+        }
        
         //0-2 beba
         //3-10 dete
